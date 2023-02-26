@@ -1,0 +1,27 @@
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-family: Roboto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-logo {
+    font-size: 24px;
+    justify-content: center;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: flex-start
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
