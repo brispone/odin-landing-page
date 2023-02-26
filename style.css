@@ -7,18 +7,24 @@
 .header {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .header-logo {
     font-size: 24px;
+    font-weight: bold;
+    display: flex;
     justify-content: center;
+    flex: auto;
 }
 
 .header-links {
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
-    justify-content: flex-start
+    justify-content: center;
+    gap: 20px;
+    flex: auto;
 }
 
 a {
