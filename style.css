@@ -80,6 +80,7 @@ html * {
     padding: 7px 40px 7px 40px;
     align-self: flex-start;
     margin-top: 10px;
+    flex-shrink: 0;
 }
 
 a {
