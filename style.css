@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 15px;
 }
 
 .header-logo {
@@ -31,10 +32,14 @@
     display: flex;
     justify-content: space-around ;
     align-items: center;
+    padding: 50px;
 }
 
 .hero-left {
     flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .hero-right {
