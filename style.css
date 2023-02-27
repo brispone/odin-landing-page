@@ -123,3 +123,25 @@ h2 {
     margin-right: 25px;
     text-align: center;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 150px 500px 150px 500px;
+}
+
+.quotation {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.citation {
+    display: block;
+    text-align: right;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24px;
+}
