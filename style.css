@@ -27,6 +27,42 @@
     flex: auto;
 }
 
+.hero-container {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+.hero-left {
+    flex: auto;
+}
+
+.hero-right {
+    flex: auto;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    background-color: #3882F6;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: inherit;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 20px 5px 20px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
