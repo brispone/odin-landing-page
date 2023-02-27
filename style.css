@@ -74,9 +74,9 @@ html * {
     font-size: 18px;
     font-weight: bold;
     color: inherit;
-    border-radius: 3px;
+    border-radius: 8px;
     border: none;
-    padding: 5px 20px 5px 20px;
+    padding: 7px 40px 7px 40px;
     align-self: flex-start;
     margin-top: 10px;
 }
@@ -144,4 +144,14 @@ h2 {
     font-weight: 900;
     font-style: normal;
     font-size: 24px;
+}
+
+.call-section {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 100px 300px 100px 300px;
+}
+
+.call-section > .button {
+    border: solid 2px #F9FAF8;
 }
