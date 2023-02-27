@@ -30,20 +30,28 @@
 
 .hero-container {
     display: flex;
-    justify-content: space-around ;
+    justify-content: center;
     align-items: center;
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.hero-container > * {
     padding: 50px;
 }
 
 .hero-left {
-    flex: auto;
+    flex: 1;
+    flex-basis: 20%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
 .hero-right {
-    flex: auto;
+    flex: 1;
+    flex-basis: 20%;
 }
 
 .hero-main {
@@ -66,6 +74,8 @@
     border-radius: 3px;
     border: none;
     padding: 5px 20px 5px 20px;
+    align-self: flex-start;
+    margin-top: 10px;
 }
 
 a {
